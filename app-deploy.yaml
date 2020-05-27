@@ -60,6 +60,7 @@ metadata:
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.2.10
   name: appsody-sample-nodejs-express
+  namespace: kabanero-samples
 spec:
   applicationImage: dev.local/appsody-sample-nodejs-express
   createKnativeService: false
